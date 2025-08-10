@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wayne Chen - Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(90deg, #ff8a00, #e52e71);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      opacity: 0.8;
+      margin-bottom: 2rem;
+    }
+    .profile-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem 3rem;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <h1>Wayne Chen</h1>
+    <p>Welcome to my ultra-modern profile page. Here you can connect with me, learn about my work, and reach out instantly using my AI assistant.</p>
+  </div>
+
+  <!-- Simli Widget -->
+  <simli-widget 
+    token="gAAAAABomAxGoGaHw2AWIsr-k8SsE7Lb6XKQV6UWcovwqeU9JzEhghh95mnSNqiz9QiaDa-XN242D00WCk6MY9vtFzx6LiusRxQk_nAvOUl4rVAV2Z104xylssbWKmz8LZnkVjQE6oHZtCiOWuPnDdByyl-vhxMPKC4myE7Q3td0U6ADSERsxfErJOSEn1EuXQmdjm49seWr16JszTyCTkkQYkZ7dHwpnUoRxN6rUYCFifb5zVh3QMDJ1hrIK5B2HY_0i7MNuIWoYk4gbVzpout1I2tXKQ-dl16n9bv45IDN-M_NwjCE2lImatS9HD8g--egKv2bqMTajANKy9iF4OlH9WAGh5BCWZGgvFCPeEhuJ_6JPMNSrr6Y1UIRGh_mNjc9NaB79Xj901te7n6bN7IoiX-xfZSLrQ==" 
+    agentid="ec9ffb69-3dd2-4d94-b1ec-563cd70f265f" 
+    position="right" 
+    customimage="https://drive.google.com/uc?export=view&id=1Qo11yjD8gu5jhDcpXdzyIIyC83lAU4RG" 
+    customtext="Call assistant" >
+  </simli-widget>
+  <script src="https://app.simli.com/simli-widget/index.js" async type="text/javascript"></script>
+</body>
+</html>
